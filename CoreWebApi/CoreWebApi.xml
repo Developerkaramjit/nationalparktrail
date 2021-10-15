@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CoreWebApi</name>
+    </assembly>
+    <members>
+        <member name="M:CoreWebApi.Controllers.NationalParkController.GetNationalParks">
+            <summary>
+            Get National Park
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebApi.Controllers.NationalParkController.GetNationalPark(System.Int32)">
+            <summary>
+            Get National By ID
+            </summary>
+            <param name="nationalParkId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebApi.Controllers.NationalParkController.CreateNationalPark(CoreWebApi.Models.Dtos.NationalParkDto)">
+            <summary>
+            Add New National Park
+            </summary>
+            <param name="nationalParkDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebApi.Controllers.NationalParkController.UpdateNationalPark(System.Int32,CoreWebApi.Models.Dtos.NationalParkDto)">
+            <summary>
+            Update National Park
+            </summary>
+            <param name="nationalParkId"></param>
+            <param name="nationalParkDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebApi.Controllers.NationalParkController.DeleteNationalPark(System.Int32)">
+            <summary>
+            Delete National Park
+            </summary>
+            <param name="nationalParkId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebApi.Controllers.TrailController.GetTrails">
+            <summary>
+            Get All Trails
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebApi.Controllers.TrailController.GetTrail(System.Int32)">
+            <summary>
+            Get Single Trail
+            </summary>
+            <param name="trailId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebApi.Controllers.TrailController.CreateTrails(CoreWebApi.Models.Dtos.TrailUpsertDto)">
+            <summary>
+            Save Trail
+            </summary>
+            <param name="trailUpsertDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebApi.Controllers.TrailController.UpdateTrails(System.Int32,CoreWebApi.Models.Dtos.TrailUpsertDto)">
+            <summary>
+            Update Trail
+            </summary>
+            <param name="TrailId"></param>
+            <param name="trailUpsertDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebApi.Controllers.TrailController.DeleteTrails(System.Int32)">
+            <summary>
+            Delete Trails
+            </summary>
+            <param name="trailId"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
